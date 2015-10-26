@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Here's a random fact</title>
+  </head>
+
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <h1>RANDOM FACT:</h1>
+      <h3><%=fact%></h3>
+      <form action="/delete_fact">
+        <input type="submit" name = "delete_fact" value="Delete" />
+      </form>
+      <br>
+      <br>
+      <a href="/random_fact">Gimme another one</a>
+      <a href="/facts">What do you know?</a>
+      <br>
+      <br>
+      <br>
+      <form action="/submit_fact">
+        <input type="text" name="fact" placeholder="Show me what you got" />
+        <input type="submit" value="Submit" />
+      </form>
+    </center>
+  </body>
+</html>
