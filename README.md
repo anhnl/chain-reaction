@@ -1,4 +1,4 @@
-express-starter
+Chain Reaction
 ===============
 
-This is a starter application for express.js that introduces basic web development
+A re-creation of the original chain reaction game on http://www.yvoschaap.com/chainrxn/
